@@ -1,0 +1,32 @@
+// * {
+//   outline: 1px solid gold;
+// }
+
+body.isLoading,
+body.modalIsOpen,
+body.mobileMenuIsOpen {
+  overflow: hidden;
+}
+
+.section {
+  padding-bottom: 32px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 $padding-small;
+  margin: 0 auto;
+
+  @include breakpoint-min($small) {
+    width: $small;
+  }
+
+  @include breakpoint-min($medium) {
+    width: $medium;
+    padding: 0 $padding-medium;
+  }
+
+  @include breakpoint-min($large) {
+    width: $large;
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  // === fonts ===
+
+  // === colors ===
+
+
+  // === decor ===
+  --box-shadow: 0 2px 2px rgba(0,0,0,.22);
+
+  // === card set ===
+  --items: 1;
+  --gap: 12px;
+}
+
+// === screen sizes ===
+$small: 480px;
+$medium: 768px;
+$large: 1200px;
+
+$extraSmallMax: $small - 1;
+$smallMax: $medium - 1;
+$mediumMax: $large - 1;
+// === screen sizes ===
+
+// === sizes ===
+$padding-small: 16px;
+$padding-medium: calc($padding-small * 2);
+$border-radius: 12px;

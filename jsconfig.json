@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "../../common/*": ["./common/js/*"],
+      "../../components/*": ["./components/*"],
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules", "dist"]
+}
+
+// === var without "baseUrl": "src",
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "../../common/*": ["src/common/js/*"],
+//       "../../components/*": ["src/components/*"],
+//     }
+//   },
+//   "exclude": ["node_modules", "**/node_modules", "dist"]
+// }
